@@ -12,8 +12,8 @@ It focuses on the correct handling of in-place and copy-based algorithms, with s
 - In-place vs. non-mutating implementations
 
 ## Notes
-This repository contains only student-written code.
-Test frameworks, grading utilities, and assignment templates provided by the university were excluded.
+- Originally developed in 2023 for academic purposes
+- Published to GitHub in 2026 after cleanup and review
 
 ---
 
