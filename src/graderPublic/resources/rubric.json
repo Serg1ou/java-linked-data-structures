@@ -1,0 +1,222 @@
+[
+  {
+    "title": "H1 | subset(Predicate)",
+    "tasks": [
+      {
+        "name": "H1.1 | subset(Predicate) - AsCopy",
+        "criteria": [
+          {
+            "order": 1,
+            "title": "Die Methode subset(MySet) ninmmt Elemente in die Ergebnismenge nicht auf, falls das Prädikat nicht erfüllt wird.",
+            "class": "h10.rubric.h1.H1_1_TestsPublic"
+          },
+          {
+            "order": 2,
+            "title": "Die Methode subset(MySet) gibt das korrekte Ergebnis für eine komplexe Eingabe zurück.",
+            "class": "h10.rubric.h1.H1_1_TestsPublic"
+          }
+        ]
+      },
+      {
+        "name": "H1.2 | subset(Predicate) - InPlace",
+        "criteria": [
+          {
+            "order": 3,
+            "title": "Die Methode subset(MySet) ninmmt Elemente in die Ergebnismenge nicht auf, falls das Prädikat nicht erfüllt wird.",
+            "class": "h10.rubric.h1.H1_2_TestsPublic"
+          },
+          {
+            "order": 4,
+            "title": "Die Methode subset(MySet) gibt das korrekte Ergebnis für eine komplexe Eingabe zurück.",
+            "class": "h10.rubric.h1.H1_2_TestsPublic"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "H2 | cartesianProduct(MySet)",
+    "tasks": [
+      {
+        "name": "H2.1 | cartesianProduct(MySet) - AsCopy",
+        "criteria": [
+          {
+            "order": 5,
+            "title": "Die Methode cartesianProduct(MySet) gibt das korrekte Ergebnis für simple Eingaben zurück.",
+            "class": "h10.rubric.h2.H2_1_TestsPublic"
+          },
+          {
+            "order": 6,
+            "title": "Die Methode cartesianProduct(MySet) gibt das korrekte Ergebnis für komplexe Eingaben zurück.",
+            "class": "h10.rubric.h2.H2_1_TestsPrivate"
+          },
+          {
+            "order": 7,
+            "title": "Die Methode cartesianProduct(MySet) definiert den Comparator für ein Tupel korrekt.",
+            "class": "h10.rubric.h2.H2_1_TestsPrivate"
+          }
+        ]
+      },
+      {
+        "name": "H2.2 | cartesianProduct(MySet) - InPlace",
+        "criteria": [
+          {
+            "order": 8,
+            "title": "Die Methode cartesianProduct(MySet) gibt das korrekte Ergebnis für simple Eingaben zurück.",
+            "class": "h10.rubric.h2.H2_2_TestsPublic"
+          },
+          {
+            "order": 9,
+            "title": "Die Methode cartesianProduct(MySet) gibt das korrekte Ergebnis für komplexe Eingaben zurück.",
+            "class": "h10.rubric.h2.H2_2_TestsPrivate"
+          },
+          {
+            "order": 10,
+            "title": "Die Methode cartesianProduct(MySet) entkoppelt die Elemente korrekt.",
+            "class": "h10.rubric.h2.H2_2_TestsPrivate"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "H3 | difference(MySet)",
+    "tasks": [
+      {
+        "name": "H3.1 | difference(MySet) - AsCopy",
+        "criteria": [
+          {
+            "order": 11,
+            "title": "Die Methode difference(MySet) nimmt ein Element nicht auf, falls ein Element sowohl in M als auch in N ist.",
+            "class": "h10.rubric.h3.H3_1_TestsPublic"
+          },
+          {
+            "order": 12,
+            "title": "Die Methode difference(MySet) gibt das korrekte Ergebnis für eine leere Menge zurück.",
+            "class": "h10.rubric.h3.H3_1_TestsPublic"
+          },
+          {
+            "order": 13,
+            "title": "Die Methode difference(MySet) nimmt die verbleibenen Elemente von M auf, falls die Menge M mehr Elemente enthält als die Menge N.",
+            "class": "h10.rubric.h3.H3_1_TestsPrivate"
+          },
+          {
+            "order": 14,
+            "title": "Die Methode difference(MySet) gibt das korrekte Ergebnis für einfache Eingaben zurück.",
+            "class": "h10.rubric.h3.H3_1_TestsPrivate"
+          },
+          {
+            "order": 15,
+            "title": "Die Methode difference(MySet) gibt das korrekte Ergebnis für komplexe Eingaben zurück.",
+            "class": "h10.rubric.h3.H3_1_TestsPrivate"
+          }
+        ]
+      },
+      {
+        "name": "H3.2 | difference(MySet) - InPlace",
+        "criteria": [
+          {
+            "order": 16,
+            "title": "Die Methode difference(MySet) nimmt ein Element nicht auf, falls ein Element sowohl in M als auch in N ist.",
+            "class": "h10.rubric.h3.H3_2_TestsPublic"
+          },
+          {
+            "order": 17,
+            "title": "Die Methode difference(MySet) gibt das korrekte Ergebnis für eine leere Menge zurück.",
+            "class": "h10.rubric.h3.H3_2_TestsPublic"
+          },
+          {
+            "order": 18,
+            "title": "Die Methode difference(MySet) nimmt die verbleibenen Elemente von M auf, falls die Menge M mehr Elemente enthält als die Menge N.",
+            "class": "h10.rubric.h3.H3_2_TestsPrivate"
+          },
+          {
+            "order": 19,
+            "title": "Die Methode difference(MySet) gibt das korrekte Ergebnis für einfache Eingaben zurück.",
+            "class": "h10.rubric.h3.H3_2_TestsPrivate"
+          },
+          {
+            "order": 20,
+            "title": "Die Methode difference(MySet) gibt das korrekte Ergebnis für komplexe Eingaben zurück.",
+            "class": "h10.rubric.h3.H3_2_TestsPrivate"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "H4 | intersectionListItems(ListItem)",
+    "tasks": [
+      {
+        "name": "H4.1 | intersectionListItems(ListItem) - AsCopy",
+        "criteria": [
+          {
+            "order": 21,
+            "title": "Die Methode intersectionListItems(ListItem) nimmt ein Element auf, falls das Element in allen Mengen enthalten ist.",
+            "class": "h10.rubric.h4.H4_1_TestsPublic"
+          },
+          {
+            "order": 22,
+            "title": "Die Methode intersectionListItems(ListItem) gibt das korrekte Ergebnis zurück, wenn die Hauptmenge leer ist.",
+            "class": "h10.rubric.h4.H4_1_TestsPublic"
+          },
+          {
+            "order": 23,
+            "title": "Die Methode intersectionListItems(ListItem) gibt das korrekte Ergebnis für eine leere Eingabemenge(n) zurück.",
+            "class": "h10.rubric.h4.H4_1_TestsPublic"
+          },
+          {
+            "order": 24,
+            "title": "Die Methode intersectionListItems(ListItem) gibt das korrekte Ergebnis für Mengen mit unterschiedlicher Länge zurück.",
+            "class": "h10.rubric.h4.H4_1_TestsPrivate"
+          },
+          {
+            "order": 25,
+            "title": "Die Methode intersectionListItems(ListItem) gibt das korrekte Ergebnis für einfache Eingaben zurück.",
+            "class": "h10.rubric.h4.H4_1_TestsPrivate"
+          },
+          {
+            "order": 26,
+            "title": "Die Methode intersectionListItems(ListItem) gibt das korrekte Ergebnis für komplexe Eingaben zurück.",
+            "class": "h10.rubric.h4.H4_1_TestsPrivate"
+          }
+        ]
+      },
+      {
+        "name": "H4.2 | intersectionListItems(ListItem) - InPlace",
+        "criteria": [
+          {
+            "order": 27,
+            "title": "Die Methode intersectionListItems(ListItem) nimmt ein Element auf, falls das Element in allen Mengen enthalten ist.",
+            "class": "h10.rubric.h4.H4_2_TestsPublic"
+          },
+          {
+            "order": 28,
+            "title": "Die Methode intersectionListItems(ListItem) gibt das korrekte Ergebnis zurück, wenn die Hauptmenge leer ist.",
+            "class": "h10.rubric.h4.H4_2_TestsPublic"
+          },
+          {
+            "order": 29,
+            "title": "Die Methode intersectionListItems(ListItem) gibt das korrekte Ergebnis für eine leere Eingabemenge(n) zurück.",
+            "class": "h10.rubric.h4.H4_2_TestsPublic"
+          },
+          {
+            "order": 30,
+            "title": "Die Methode intersectionListItems(ListItem) gibt das korrekte Ergebnis für Mengen mit unterschiedlicher Länge zurück.",
+            "class": "h10.rubric.h4.H4_2_TestsPrivate"
+          },
+          {
+            "order": 31,
+            "title": "Die Methode intersectionListItems(ListItem) gibt das korrekte Ergebnis für einfache Eingaben zurück.",
+            "class": "h10.rubric.h4.H4_2_TestsPrivate"
+          },
+          {
+            "order": 32,
+            "title": "Die Methode intersectionListItems(ListItem) gibt das korrekte Ergebnis für komplexe Eingaben zurück.",
+            "class": "h10.rubric.h4.H4_2_TestsPrivate"
+          }
+        ]
+      }
+    ]
+  }
+]
